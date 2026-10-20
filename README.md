@@ -1,7 +1,9 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=200&section=header&text=Madhur%20Chavan&fontSize=46&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Mobile%20%26%20Systems&descAlignY=62&descAlign=50&animation=twinkling" width="100%" alt="Header Banner" />
+  <!-- Native SVG Header Banner (Zero external API dependencies) -->
+  <img src="https://raw.githubusercontent.com/MagicalMadhur/MagicalMadhur/main/header.svg" width="100%" alt="Madhur Chavan Banner" />
+
+  <br/><br/>
 
   <!-- Animated Subtitle -->
   <a href="https://git.io/typing-svg">
@@ -97,15 +99,4 @@
 | **Networking & Systems** | ![Windows API](https://img.shields.io/badge/Win32%20API-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white) ![Sockets](https://img.shields.io/badge/Socket%20Programming-444444?style=for-the-badge) |
 | **Dev Tools & Platforms** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
 
-</div>
-
-<br/>
-
-<div align="center">
-  <!-- Dynamic Quote Card -->
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-  <br/><br/>
-  
-  <!-- Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,23,30&height=90&section=footer" width="100%" alt="Footer Banner" />
 </div>
