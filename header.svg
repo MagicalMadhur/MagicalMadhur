@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0e1320"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#70A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#70A6FF"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="ambientCyan" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambientPurple" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: 4px;
+    }
+    .subtitle {
+      font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 500;
+      font-size: 15px;
+      fill: #8B949E;
+      letter-spacing: 2px;
+    }
+    .badge-text {
+      font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #00F0FF;
+      letter-spacing: 1.5px;
+    }
+  </style>
+
+  <!-- Base Card -->
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Ambient Glow Circles -->
+  <circle cx="150" cy="50" r="160" fill="url(#ambientCyan)"/>
+  <circle cx="750" cy="160" r="160" fill="url(#ambientPurple)"/>
+
+  <!-- Subtle Tech Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="40" x2="900" y2="40"/>
+    <line x1="0" y1="110" x2="900" y2="110"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="150" y1="0" x2="150" y2="220"/>
+    <line x1="450" y1="0" x2="450" y2="220"/>
+    <line x1="750" y1="0" x2="750" y2="220"/>
+  </g>
+
+  <!-- Glowing Top Border Accent Line -->
+  <path d="M 16 2 L 884 2" stroke="url(#borderGrad)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Card Border -->
+  <rect x="2" y="2" width="896" height="216" rx="16" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Decorative Status Pill -->
+  <g transform="translate(365, 34)">
+    <rect x="0" y="0" width="170" height="24" rx="12" fill="#00F0FF" fill-opacity="0.1" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="14" cy="12" r="4" fill="#00F0FF"/>
+    <text x="26" y="16" class="badge-text">STATUS: ACTIVE</text>
+  </g>
+
+  <!-- Name / Title -->
+  <text x="450" y="112" text-anchor="middle" class="title" fill="url(#textGrad)">MADHUR CHAVAN</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="152" text-anchor="middle" class="subtitle">SOFTWARE ENGINEER • FULL-STACK • SYSTEMS &amp; MOBILE</text>
+
+  <!-- Decorative Corner Accents -->
+  <path d="M 20 30 L 20 20 L 30 20" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 880 30 L 880 20 L 870 20" stroke="#70A6FF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 20 190 L 20 200 L 30 200" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 880 190 L 880 200 L 870 200" stroke="#A855F7" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>
